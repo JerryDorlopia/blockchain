@@ -46,11 +46,11 @@ A decentralized certificate verification system where:
 ##  Features
 
 ### Backend Features
-- ✅ **Smart Contracts** - Solidity contracts for certificate issuance and verification
-- ✅ **Role-Based Access Control (RBAC)** - Admin, Lecturer, and Student roles
-- ✅ **NFT Integration** - ERC-721 compliant certificates
-- ✅ **IPFS Storage** - Decentralized file storage for certificate documents
-- ✅ **Blockchain Events** - Event logging for all actions
+-  **Smart Contracts** - Solidity contracts for certificate issuance and verification
+-  **Role-Based Access Control (RBAC)** - Admin, Lecturer, and Student roles
+-  **NFT Integration** - ERC-721 compliant certificates
+-  **IPFS Storage** - Decentralized file storage for certificate documents
+-  **Blockchain Events** - Event logging for all actions
 
 ### Frontend Features
 -  **Landing Page** - Professional introduction to the system
@@ -62,58 +62,6 @@ A decentralized certificate verification system where:
 -  **Admin Dashboard** - Dashboard with statistics and certificate list
 -  **Events Log** - View all blockchain events
 -  **Professional Dark Theme** - Modern glassmorphism design
-
----
-
-##  System Architecture
-┌─────────────────────────────────────────────────────────────────────────┐
-│ SYSTEM ARCHITECTURE │
-├─────────────────────────────────────────────────────────────────────────┤
-│ │
-│ USER INTERFACE │
-│ ┌─────────────────────────────────────────────────────────────────┐ │
-│ │ Frontend (HTML/CSS/JS) │ │
-│ │ ├── Landing Page │ │
-│ │ ├── MetaMask Connection │ │
-│ │ ├── Issue Certificate │ │
-│ │ ├── Verify Certificate │ │
-│ │ ├── QR Scanner │ │
-│ │ ├── Dashboard │ │
-│ │ └── Events │ │
-│ └───────────────────────────────┬─────────────────────────────────┘ │
-│ │ │
-│ ▼ │
-│ ┌─────────────────────────────────────────────────────────────────┐ │
-│ │ MetaMask (Wallet) │ │
-│ │ └── eth_requestAccounts, signing, network detection │ │
-│ └───────────────────────────────┬─────────────────────────────────┘ │
-│ │ │
-│ ▼ │
-│ BLOCKCHAIN (Sepolia) │
-│ ┌─────────────────────────────────────────────────────────────────┐ │
-│ │ CertificateSystem.sol (Main Contract) │ │
-│ │ ├── RBAC (Admin/Lecturer/Student) │ │
-│ │ ├── issueCertificate() │ │
-│ │ ├── verifyCertificate() │ │
-│ │ └── revokeCertificate() │ │
-│ └───────────────────────────────┬─────────────────────────────────┘ │
-│ │ │
-│ ▼ │
-│ ┌─────────────────────────────────────────────────────────────────┐ │
-│ │ CertificateNFT.sol (ERC-721) │ │
-│ │ ├── _safeMint() │ │
-│ │ ├── ownerOf() │ │
-│ │ ├── tokenURI() │ │
-│ │ └── getCertificateDetails() │ │
-│ └───────────────────────────────┬─────────────────────────────────┘ │
-│ │ │
-│ ▼ │
-│ ┌─────────────────────────────────────────────────────────────────┐ │
-│ │ IPFS (Pinata) │ │
-│ │ └── Decentralized file storage for certificate documents │ │
-│ └─────────────────────────────────────────────────────────────────┘ │
-└─────────────────────────────────────────────────────────────────────────┘
-
 
 ---
 
