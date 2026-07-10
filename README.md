@@ -121,7 +121,7 @@ A decentralized certificate verification system where:
 
 ---
 ### System Architecture Diagram
-![System Architecture Diagram](images/System%20architecture%20diagram.png)
+![System Architecture Diagram](images/System%20architecture%20diagram..png)
 
 *Complete system architecture showing the interaction between frontend, blockchain, and IPFS layers.*
 
