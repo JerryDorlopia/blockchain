@@ -120,7 +120,19 @@ A decentralized certificate verification system where:
 *Anyone can verify a certificate by entering the Token ID or scanning a QR code.*
 
 ---
+### System Architecture Diagram
+![System Architecture Diagram](images/System%20architecture%20diagram.png)
 
+*Complete system architecture showing the interaction between frontend, blockchain, and IPFS layers.*
+
+---
+
+### Data Flow Diagram (DFD)
+![Data Flow Diagram](images/DFD.png)
+
+*Data flow diagram illustrating how information moves through the system.*
+
+---
 
 ---
 
