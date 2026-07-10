@@ -2,10 +2,22 @@
 
 A decentralized certificate issuance and verification system built on the Ethereum blockchain. This DApp enables academic institutions to issue tamper-proof digital certificates that employers can instantly verify online.
 
+---
+
+##  Team Members
+
+| Name | Roll Number |
+|------|-------------|
+| **Jerry Dorlopia** | #202540686 |
+| **Patch** | #202540687 |
+
+---
+
 ##  Table of Contents
 
 - [Overview](#-overview)
 - [Features](#-features)
+- [Screenshots](#-screenshots)
 - [System Architecture](#-system-architecture)
 - [Technologies Used](#-technologies-used)
 - [Deployment](#-deployment)
@@ -65,6 +77,53 @@ A decentralized certificate verification system where:
 
 ---
 
+##  Screenshots
+
+### Home Page
+![Home Page](images/home.png)
+
+*The landing page showing system overview, features, and statistics.*
+
+---
+
+### Issue Certificate (Lecturer Only)
+![Issue Certificate](images/issue_cert.png)
+
+*Lecturers can issue tamper-proof digital certificates by filling in student details and confirming via MetaMask.*
+
+---
+
+### Dashboard
+![Dashboard](images/dashboard.png)
+
+*Dashboard showing certificate statistics, total certificates, and the user's certificate list.*
+
+---
+
+### Events Log
+![Events Log](images/events.png)
+
+*Real-time blockchain events display showing certificate issuance, verification, and other activities.*
+
+---
+
+### RBAC - Access Denied (Non-Lecturer)
+![RBAC - Non-Lecturer](images/RBAC_none_lecturer.png)
+
+*When a non-lecturer account tries to access the issue page, they see an "Access Denied" message, demonstrating Role-Based Access Control.*
+
+---
+
+### Certificate Verification
+![Certificate Verification](images/verify_cert.png)
+
+*Anyone can verify a certificate by entering the Token ID or scanning a QR code.*
+
+---
+
+
+---
+
 ##  Technologies Used
 
 | Technology | Purpose |
@@ -91,7 +150,5 @@ A decentralized certificate verification system where:
 
 ### Frontend
 
-- **Live Demo**: http://127.0.0.1:5500/index.html
+- **Live Demo**: `http://127.0.0.1:5500/frontend/index.html`
 - **Local Development**: Open `frontend/index.html` in browser
-
----
