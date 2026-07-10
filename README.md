@@ -161,6 +161,29 @@ A decentralized certificate verification system where:
 | **CertificateSystem** | `0x94fb6fcD345d639520468E58455bA9C6698877A7` | [View on Etherscan](https://sepolia.etherscan.io/address/0x94fb6fcD345d639520468E58455bA9C6698877A7) |
 
 ### Frontend
+## 📖 User Manual
+
+The complete user manual is available as a PDF document.
+
+[![User Manual](images/user_manual.png)](docs/user_manual.pdf)
+
+*Click the image or link above to view the full user manual.*
+
+### Manual Contents
+
+- Introduction
+- Prerequisites
+- Getting Started
+- User Roles
+- How to Issue a Certificate
+- How to Verify a Certificate
+- How to View Dashboard
+- How to View Blockchain Events
+- How to Use QR Code Scanner
+- Troubleshooting
+- FAQ
+
+[📄 Download User Manual (PDF)](docs/user_manual.pdf)
 
 - **Live Demo**: `http://127.0.0.1:5500/frontend/index.html`
 - **Local Development**: Open `frontend/index.html` in browser
