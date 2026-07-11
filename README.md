@@ -9,7 +9,7 @@ A decentralized certificate issuance and verification system built on the Ethere
 | Name | Roll Number |
 |------|-------------|
 | **Jerry Dorlopia** | #202540686 |
-| **Patch** | #202540687 |
+| **PATCHANNE DJONG-IGNABE EPHRAIM** | #202651930 |
 
 ---
 
